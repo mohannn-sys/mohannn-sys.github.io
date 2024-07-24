@@ -77,11 +77,6 @@ body {
     margin-top: 0em;
 }
 
-.resume .contact-info__left,
-.resume .contact-info__right {
-    width: 50%;
-}
-
 .resume .resume__section:last-child {
   padding-bottom: 0;
 }
@@ -114,11 +109,13 @@ body {
   padding: 0;
 }
 .resume .resume__main-column {
-  width: 65%;
+  width: 35%;
   padding-right: 2em;
 }
 .resume .resume__side-column {
-  width: 35%;
+  width: 65%;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
 }
 .resume .other-info p > b {
   color: #555;
@@ -154,36 +151,11 @@ body {
     line-height: 1.4;
 }
 
-.resume .xp-item {
-  margin-bottom: 2em;
-}
-.resume .xp-item:last-child {
-  margin-bottom: 0;
-}
-
 
 .resume .info-item a:hover {
     text-decoration: underline;
 }
 
-.resume .xp-job {
-  font-size: 1.14em;
-  font-weight: 600;
-  line-height: 1.25;
-}
-.resume .xp-job span,
-.resume .xp-job small {
-  font-weight: 400;
-}
-.resume .xp-job small {
-  font-size: 0.9em;
-}
-.resume .xp-date {
-  font-size: 0.8em;
-  margin-top: 0.3em;
-  margin-bottom: 1em;
-  color: #5695cd;
-}
 .resume .extra {
   margin-bottom: 0.5em;
 }
